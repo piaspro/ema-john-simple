@@ -6,8 +6,12 @@
 }
 .Header nav {
     background-color: black;
-    line-height: 40px;
     font-size: 20px;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav a{
     text-decoration: none;
@@ -17,4 +21,13 @@ nav a{
 }
 nav a:hover{
     background-color: gray;
+}
+.cart-icon{
+    color: orange;
+    padding: 0px 10px;
+}
+.user-img{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 50px !important;
 }

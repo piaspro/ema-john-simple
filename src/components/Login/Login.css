@@ -1,0 +1,24 @@
+.logIn{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+.signIn{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.icon{
+    height: 20px;
+    margin-right: 10px;
+}

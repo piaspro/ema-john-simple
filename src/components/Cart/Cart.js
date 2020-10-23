@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cart = (props) => {
     const cart = props.cart;
-    const total = cart.reduce((total, prd)=> total + prd.price, 0)
+    const total = cart.reduce((total, prd)=> total + prd.price * prd.quantity, 0);
     // shipping cost calculation
     let shipping = 0;
     if (total > 35) {
@@ -32,7 +32,7 @@ const Cart = (props) => {
             </div>
             <div>
                 <p>Total Price: <strong>{fixNumber(grandTotal)}</strong></p>
-                <button className="cart-btn">Check Out</button>
+                {props.children}
             </div>
         </div>
     );
